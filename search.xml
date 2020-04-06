@@ -33,12 +33,113 @@
 <p>More info: <span class="exturl"><a class="exturl__link"   href="https://hexo.io/docs/one-command-deployment.html"  target="_blank" rel="noopener">Deployment</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
 ]]></content>
       <categories>
-        <category>2</category>
+        <category>Hello World</category>
       </categories>
+      <tags>
+        <tag>Hello World</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常见Linux操作命令</title>
+    <url>/2020/04/06/linux_cmd/</url>
+    <content><![CDATA[<p><strong>本文中，例如  :set nu(显示行数)<br>带有’:’的，均表示是在vi中，按Esc后输入的命令</strong></p>
+<blockquote>
+<p>whoami<br>查看当前登录的用户</p>
+</blockquote>
+<blockquote>
+<p>pwd<br>查看当前所在路径</p>
+</blockquote>
+<blockquote>
+<p>mkdir test<br>创建文件夹<br>mkdir -p test/test1/test2<br>递归创建目录</p>
+</blockquote>
+<blockquote>
+<p>cat –全部显示</p>
+</blockquote>
+<blockquote>
+<p>echo –创建文件，可以写入东西<br>echo “您好” &gt; log.txt（覆盖文件内容）<br>echo “您好” &gt;&gt; log.txt（添加到文件末尾）</p>
+</blockquote>
+<blockquote>
+<p>:set nu(显示行数)</p>
+</blockquote>
+<blockquote>
+<p>man 查看命令解释</p>
+</blockquote>
+<blockquote>
+<p>rm –删除文件<br>rm -f  不询问直接删除<br><em>删除全部文件<br>rm *<br>rm -f log</em>  删除全部log开头的文件（log1，log2也可以删除）</p>
+<blockquote>
+<p>rm -r –删除文件夹<br>rm -rf test*  删除全部test开头的文件及文件夹（test1，test2，test.java,test.class也可以删除）</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>tar –打包，解包（无压缩作用）<br>tar -cvf test.tar test<br>tar -xvf test.tar</p>
+</blockquote>
+<blockquote>
+<p>gzip –压缩文件<br>gzip -c log1.txt log2.txt log3.txt log4.txt &gt; log.gz<br>gunzip test.gz</p>
+<blockquote>
+<p>tar -zcvf test.tar.gz test(也可以压缩空间)（占用CPU少）<br>gzip压缩单个文件好<br>tar打包压缩整个目录好<br>tar比gzip用的多得多</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>mv –移动文件<br>mv test.tar test2</p>
+</blockquote>
+<blockquote>
+<p>tail –查看日志记录<br>tail -f 查看文件末尾新增内容<br>tail -n 查看文件末尾n行内容<br>tail test.txt 输出文件末尾部分</p>
+</blockquote>
+<blockquote>
+<p>wc –查看文件有多少行<br>wc -l log.txt</p>
+</blockquote>
+<blockquote>
+<p>ln –创建文件链接<br>ln -s test/log.txt log</p>
+</blockquote>
+<blockquote>
+<p>cp –复制文件或目录<br>cp test/log.txt .（拷贝到当前目录）<br>cp log.txt ..（拷贝到上级目录）<br>cp -r test test2（拷贝test文件夹到test2）</p>
+</blockquote>
+<blockquote>
+<p>find –递归地在层次目录中处理文件<br>find ./* -name “log*”（当前目录下的任何目录有名字log开头的文件）<br>find ./* -name “log*” |xargs ls -l（对所有查找出来的文件执行ls -l）<br>find ./* -user hadoop -name “log*” （查找hadoop用户log开头的文件）</p>
+</blockquote>
+<blockquote>
+<p>vi –文本编辑器<br>i –进入输入模式<br>Esc –进入命令模式<br>Shift+A –光标定位在末尾，进入输入模式<br>命令模式下 x 删除当前字符<br>X 向前删除字符<br>Shift+X 向前删除字符<br>dd –删除整行</p>
+<blockquote>
+<p>:$ 光标定位在最后一行<br>:0 光标定位在第一行<br>:n 光标定位在第n行<br>:gg 光标定位在第一行<br>:Shift+g 光标定位在最后一行<br>:/abcd  光标定位在有abcd的那一行（有多行，按n）</p>
+<blockquote>
+<p>:q退出<br>:q!强制退出  <br>:w保存  <br>:wq保存退出</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>权限<br>cat /etc/group<br>创建组 –groupadd admin<br>删除组 –groupdel admin<br>创建用户 –useradd  -g admin dev<br>删除组用户 –userdel -g admin dev<br>修改用户组 –usermod -g root dev<br>修改用户组 –gpasswd -a dev admin(将用户“dev”加入到“admin”组中)<br>修改用户组 –gpasswd -d dev admin(将用户“dev”从“admin”组中删除)</p>
+</blockquote>
+<blockquote>
+<p>添加log读写执行权限（u-用户 g-组 o-其他）</p>
+<blockquote>
+<p>chmod u+r log<br>chmod g+w log<br>chmod o+x log<br>取消log读写执行权限<br>chmod -r log<br>chmod -w log<br>chmod -x log<br>(chmod a+-rwx log)<br>chown –修改文件用户<br>chown -R hadoop log(修改log文件到hadoop用户)<br>修改文件组<br>chgrp -R admin test(修改test文件到admin组)</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>which</p>
+</blockquote>
+<blockquote>
+<p>查看mysql状态<br>ps -ef | grep mysql</p>
+</blockquote>
+<blockquote>
+<p>hadoop命令</p>
+<blockquote>
+<p>hadoop fs<br>hadoop fs -ls /<br>hadoop fs -mkdir -p /test<br>hadoop fs -ls<br>hadoop fs -mkdir test<br>hadoop fs -mv /test /test2<br>hadoop fs -mv -r /test</p>
+</blockquote>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>虚拟机</tag>
+        <tag>操作命令</tag>
+      </tags>
   </entry>
   <entry>
     <title>关于我自建博客的挣扎</title>
-    <url>/2020/04/01/Blog-Notes/</url>
+    <url>/2020/04/01/blog-notes/</url>
     <content><![CDATA[
         <h2 id="我的Blog的起因"   >
           <a href="#我的Blog的起因" class="heading-link"><i class="fas fa-link"></i></a>我的Blog的起因</h2>
@@ -100,10 +201,10 @@
       <p>这次搭建博客，过程算是比较痛苦的，博客刚起步，这篇也花了很多次才完善好（<del>现在还没写好</del>）。目前也只能写一些没有啥技术含量的东西。<br>过程加起来20多小时（<del>因为菜</del>），挺累的，第一次这样系统的做一件事情。不过也是值得的，学到了挺多东西，结果是好的嘛。<br>学无止境，从第一次用C语言打印出”Hello World”开始，这一切都开始了。<br>主要还是因为热爱吧，Love And Share 分享热爱。</p>
 ]]></content>
       <categories>
-        <category>1</category>
+        <category>Notes</category>
       </categories>
       <tags>
-        <tag>Test</tag>
+        <tag>Notes</tag>
       </tags>
   </entry>
 </search>
