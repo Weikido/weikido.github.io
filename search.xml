@@ -139,77 +139,7 @@
   </entry>
   <entry>
     <title>关于我自建博客的挣扎</title>
-    <url>/2020/04/01/blog-notes/</url>
-    <content><![CDATA[
-        <h2 id="我的Blog的起因"   >
-          <a href="#我的Blog的起因" class="heading-link"><i class="fas fa-link"></i></a>我的Blog的起因</h2>
-      <p>2020年4月1日，因特朗普病毒引起的美国新冠肺炎，不得不在家中上网课。这天，正在上着Android课，和大哥<span class="exturl"><a class="exturl__link"   href="https://idforhyit.coding.me/"  target="_blank" rel="noopener">IDforHYIT</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>扯皮，我写了个APP，想炫耀一番（<del>滑稽</del>）。</p>
-<p>后来就聊到建立自己的博客，起因是二哥<span class="exturl"><a class="exturl__link"   href="https://cjpnice.gitee.io/"  target="_blank" rel="noopener">cjpnice</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>建了个博客，然后被老师疯狂夸赞，还说考研复试可能会加印象分。这我可就动了心，加分，那不赶紧动起来，<br>大哥<span class="exturl"><a class="exturl__link"   href="https://idforhyit.coding.me/"  target="_blank" rel="noopener">IDforHYIT</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>可是两年多前就已经有了博客，那不得去取取经。</p>
-<p>就这样，我开始部署自己的博客。</p>
-
-        <h2 id="开始搭建个人博客（Hexo）"   >
-          <a href="#开始搭建个人博客（Hexo）" class="heading-link"><i class="fas fa-link"></i></a>开始搭建个人博客（Hexo）</h2>
-      <p>可以成功部署自己的博客，这里主要从<span class="exturl"><a class="exturl__link"   href="https://zhuanlan.zhihu.com/p/26625249"  target="_blank" rel="noopener">GitHub+Hexo 搭建个人网站详细教程</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>、<span class="exturl"><a class="exturl__link"   href="https://www.jianshu.com/p/33bc0a0a6e90"  target="_blank" rel="noopener">Hexo-修改Hexo主题</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>、大哥<span class="exturl"><a class="exturl__link"   href="https://idforhyit.coding.me/"  target="_blank" rel="noopener">IDforHYIT</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>这里获取能量。<br>我搭建博客，主要分为三部分</p>
-<ul>
-<li>平坦区</li>
-<li>绝望</li>
-<li>嘚瑟</li>
-</ul>
-
-        <h3 id="前期准备（平坦区）"   >
-          <a href="#前期准备（平坦区）" class="heading-link"><i class="fas fa-link"></i></a>前期准备（平坦区）</h3>
-      
-        <h4 id="GitHub创建个人仓库"   >
-          <a href="#GitHub创建个人仓库" class="heading-link"><i class="fas fa-link"></i></a>GitHub创建个人仓库</h4>
-      <p>在<span class="exturl"><a class="exturl__link"   href="https://github.com/"  target="_blank" rel="noopener">GitHub</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>注册账号，点击Repositories旁边的New创建一个仓库。<br>仓库名应该为：用户名.github.io 这个用户名使用你的GitHub帐号名称代替，这是固定写法（必须这样写，后来我就乱改仓库名，不能部署了。），比如我的仓库名为：weikido.github.io</p>
-
-        <h4 id="安装Git"   >
-          <a href="#安装Git" class="heading-link"><i class="fas fa-link"></i></a>安装Git</h4>
-      
-        <h4 id="安装Node-js"   >
-          <a href="#安装Node-js" class="heading-link"><i class="fas fa-link"></i></a>安装Node.js</h4>
-      
-        <h4 id="安装Hexo"   >
-          <a href="#安装Hexo" class="heading-link"><i class="fas fa-link"></i></a>安装Hexo</h4>
-      
-        <h4 id="推送博客"   >
-          <a href="#推送博客" class="heading-link"><i class="fas fa-link"></i></a>推送博客</h4>
-      <p>到这为止，简单的博客就已经搭建并推送完成。</p>
-
-        <h3 id="寻找心仪的主题，并配置（绝望）"   >
-          <a href="#寻找心仪的主题，并配置（绝望）" class="heading-link"><i class="fas fa-link"></i></a>寻找心仪的主题，并配置（绝望）</h3>
-      <p>这里绝望，主演还是因为太菜了，以前未接触过Markdown语法，还有对花里胡哨比较执着，所以花费的时间太多太多。<br>搭建博客的主要工作都完成了，在这里花费了太多时间且很多都是无用功，甚至还有负功。所以就觉得很绝望。<br>所以，新手在找到心仪的主题时，一定要先找帮助文档。<del>我恨啊</del></p>
-
-        <h4 id="寻找主题"   >
-          <a href="#寻找主题" class="heading-link"><i class="fas fa-link"></i></a>寻找主题</h4>
-      <p>可以先去Hexo官方那里瞅瞅，由于我对花里胡哨且使用比较执着，所以花费在寻找主题上的时间比较多。</p>
-
-        <h4 id="根据自己的需求配置主题"   >
-          <a href="#根据自己的需求配置主题" class="heading-link"><i class="fas fa-link"></i></a>根据自己的需求配置主题</h4>
-      <p>因为对Markdown语法过于陌生，所以前期自己摸索了大半天，上网找一些教程，收效甚微。后来还是直接对线大哥，才知道有帮助文档这个东东。后来就依葫芦画瓢，博客也开始花里胡哨且实用了起来。</p>
-
-        <h3 id="一切设置成功，绑定域名（嘚瑟）"   >
-          <a href="#一切设置成功，绑定域名（嘚瑟）" class="heading-link"><i class="fas fa-link"></i></a>一切设置成功，绑定域名（嘚瑟）</h3>
-      <p>一切都设置好了之后，就开始想着买个域名解析到博客。<br>由于我是双部署，coding在国内访问比较快，就解析到coding了。（<del>这里吐槽一下coding给的二级域名不是以前那种仓库名设置成用户名，二级域名就是 用户名.coding.com</del>）</p>
-
-        <h4 id="现学现卖"   >
-          <a href="#现学现卖" class="heading-link"><i class="fas fa-link"></i></a>现学现卖</h4>
-      <p>二哥用Android写了一个套壳app，进入app就是自己的博客，我也跟风搞了一个，<del>哪个男孩不想拥有自己的APP呢</del>，难度不大，就因为地址http少加了一个s（课上老师讲过，我给忘了）又鼓捣半天，我太难了。</p>
-
-        <h2 id="总结"   >
-          <a href="#总结" class="heading-link"><i class="fas fa-link"></i></a>总结</h2>
-      <p>这次搭建博客，过程算是比较痛苦的，博客刚起步，这篇也花了很多次才完善好（<del>现在还没写好</del>）。目前也只能写一些没有啥技术含量的东西。<br>过程加起来20多小时（<del>因为菜</del>），挺累的，第一次这样系统的做一件事情。不过也是值得的，学到了挺多东西，结果是好的嘛。<br>学无止境，从第一次用C语言打印出”Hello World”开始，这一切都开始了。<br>主要还是因为热爱吧，Love And Share 分享热爱。</p>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于我自建博客的挣扎</title>
-    <url>/2020/04/01/test/</url>
+    <url>/2020/04/01/blog-note/</url>
     <content><![CDATA[
         <h2 id="我的Blog的起因"   >
           <a href="#我的Blog的起因" class="heading-link"><i class="fas fa-link"></i></a>我的Blog的起因</h2>
