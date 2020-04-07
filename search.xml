@@ -40,6 +40,34 @@
       </tags>
   </entry>
   <entry>
+    <title>Android开发：利用Fragment,ListView和RecyclerView综合实现微信界面</title>
+    <url>/2020/04/07/android-wechat/</url>
+    <content><![CDATA[
+        <h2 id="效果展示"   >
+          <a href="#效果展示" class="heading-link"><i class="fas fa-link"></i></a>效果展示</h2>
+      <p>
+        <img   class="lazyload lazyload-gif"
+          src="/images/loading.svg" data-src="%5Cimages%5CAndroid%5CWeChat%5CWeChat.jpg"  alt="avatar">
+      <br>
+        <img   class="lazyload lazyload-gif"
+          src="/images/loading.svg" data-src="%5Cimages%5CAndroid%5CWeChat%5CPeople.jpg"  alt="" title="通讯录">
+      <br>
+        <img   class="lazyload lazyload-gif"
+          src="/images/loading.svg" data-src="%5Cimages%5CAndroid%5CWeChat%5CFind.jpg"  alt="" title="发现页面">
+      <br>
+        <img   class="lazyload lazyload-gif"
+          src="/images/loading.svg" data-src="images%5CAndroid%5CWeChat%5CMe.jpg"  alt="" title="我">
+      </p>
+]]></content>
+      <categories>
+        <category>Android</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+        <tag>WeChat</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>常见Linux操作命令</title>
     <url>/2020/04/06/linux-cmd/</url>
     <content><![CDATA[<p><strong>本文中，例如  :set nu(显示行数)<br>带有’:’的，均表示是在vi中，按Esc后输入的命令</strong></p>
