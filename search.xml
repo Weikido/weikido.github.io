@@ -222,8 +222,8 @@
           <a href="#本篇博客的用意" class="heading-link"><i class="fas fa-link"></i></a>本篇博客的用意</h2>
       <p>在学习过程中，我们肯定会遇到各种各样的问题，有的可能会自动消失，有的会让我们焦头烂额<br>此篇博客收集了我最近遇到的一些问题和解决的办法，可能并不适用每个人，但也具有一定的代表性<br>问题主要是关于Android、大数据处理、虚拟机、IntelliJ IDEA</p>
 
-        <h3 id="不定期更新">
-          <a href="#不定期更新" class="heading-link"><i class="fas fa-link"></i></a>不定期更新</h3>
+        <h3 id="不定期更新-2020-5-3更新">
+          <a href="#不定期更新-2020-5-3更新" class="heading-link"><i class="fas fa-link"></i></a>不定期更新(2020.5.3更新)</h3>
       
         <h2 id="Android">
           <a href="#Android" class="heading-link"><i class="fas fa-link"></i></a>Android</h2>
@@ -235,6 +235,8 @@
 <li><p><span class="exturl"><a class="exturl__link" href="https://blog.csdn.net/Ericpengjun/article/details/90107509" target="_blank" rel="noopener">Android studio配置Flutter教程，解决creating flutter project长时间卡停</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
 </li>
 <li><p><span class="exturl"><a class="exturl__link" href="https://blog.csdn.net/u010358168/article/details/84826707" target="_blank" rel="noopener">Flutter报错之Waiting for another flutter command to release the startup lock解决方案</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+</li>
+<li><p><span class="exturl"><a class="exturl__link" href="https://blog.csdn.net/longxuanzhigu/article/details/90649005" target="_blank" rel="noopener">Android 9.0使用WebView加载Url时，显示页面无法加载</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
 </li>
 </ul>
 
